@@ -1,5 +1,5 @@
-# a3pay-php
-PHP library for a3Pay
+# codeboxsql
+Wrapper for the PHP MySQLi Extension
 
 
 ## Requirements
@@ -9,7 +9,7 @@ PHP library for a3Pay
 ## Installation
 To install with composer run the following command
 
-    composer require a3pay/php
+    composer require esiokugbechoice/codeboxsql
 
 
 ## Usage
@@ -19,7 +19,7 @@ To install with composer run the following command
 require_once 'vendor/autoload.php';
 //OR
 //Include the classes directly from path
-require_once 'vendor/a3pay/php/dist/payments.php';
+require_once 'vendor/esiokugbechoice/codeboxsql/dist/payments.php';
 
 //mysqli USAGE
 //INSERT
