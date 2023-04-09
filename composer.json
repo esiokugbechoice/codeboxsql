@@ -1,0 +1,23 @@
+{
+    "name": "codeboxsql/php",
+    "description": "A PHP Wrapper for the mysqli class",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "codeboxsql\\": "dist/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CodeBox NG",
+            "email": "contact@codebox.ng"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
