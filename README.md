@@ -19,12 +19,12 @@ To install with composer run the following command
 require_once 'vendor/autoload.php';
 //OR
 //Include the classes directly from path
-require_once 'vendor/esiokugbechoice/codeboxsql/dist/payments.php';
+require_once 'vendor/esiokugbechoice/codeboxsql/dist/mysql.php';
 
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$database = 'mailer';
+$database = 'test';
 
 $mysqli = new codeboxsql\mysql($host, $user, $pass, $database);
 
