@@ -21,9 +21,16 @@ require_once 'vendor/autoload.php';
 //Include the classes directly from path
 require_once 'vendor/esiokugbechoice/codeboxsql/dist/payments.php';
 
-//mysqli USAGE
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$database = 'mailer';
+
+$mysqli = new codeboxsql\mysql($host, $user, $pass, $database);
+
 //INSERT
 $mysqli->insertInto('tableOne',array('name' => 'lolo' , 'deg' => '100')); //return string
+
 //SELECT
 //Single Select
 $mysqli->singleSelect('accounts',array('id' => '60' , 'mobile' => '+2348023775657'), 'fetch', array('ORDER BY' => 'rand()' , 'LIMIT' => '3')); //return array
@@ -36,7 +43,7 @@ $mysqli->multiSelect(array('accounts' => 'a' , 'bvn' => 'b'),array('a.id' => '60
 
 
 ## Examples
-Look to the scripts in the `/examples` directory in your browser. You will have to change the api_key and token in the example files to your own.
+Look to the scripts in the `examples.php` file in your browser.
 
 
 ## Contributing
