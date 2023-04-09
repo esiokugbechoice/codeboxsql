@@ -9,7 +9,7 @@ Wrapper for the PHP MySQLi Extension
 ## Installation
 To install with composer run the following command
 
-    composer require esiokugbechoice/codeboxsql
+    composer require codeboxsql/php
 
 
 ## Usage
@@ -19,7 +19,7 @@ To install with composer run the following command
 require_once 'vendor/autoload.php';
 //OR
 //Include the classes directly from path
-require_once 'vendor/esiokugbechoice/codeboxsql/dist/mysql.php';
+require_once 'vendor/codeboxsql/php/dist/mysql.php';
 
 $host = 'localhost';
 $user = 'root';
